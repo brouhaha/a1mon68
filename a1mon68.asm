@@ -1,11 +1,13 @@
-; This is a rewrite of the Apple 1 monitor to run on an MC6800
+; a1mon68: a rewrite of the Apple 1 monitor to run on an MC6800
 ; microprocessor, rather than the MCS6502 microprocessor that
-; was standard.  This source code will assemble with the
-; AS Macro Assembler; with minor changes it should assemble
-; with any MC6800 assembler.
+; was standard.
 
-; Copyright 2011 Eric Smith <eric@brouhaha.com>
-;
+; Copyright 2011 Eric Smith <spacewar@gmail.com>
+
+; This source code will assemble with the AS Macro Assembler:
+;   http://john.ccac.rwth-aachen.de:8000/as/
+; With minor changes it should assemble with any MC6800 assembler.
+
 ; This program is free software; you can redistribute and/or modify it
 ; under the terms of the GNU General Public License version 3 as
 ; published by the Free Software Foundation.
@@ -14,11 +16,9 @@
 ; WITHOUT ANY WARRANTY; without even the implied warranty of
 ; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
 ; General Public License for more details.
-;
-; The text of the license may be found online at:
-;     http://www.brouhaha.com/~eric/software/GPLv3
-; or:
-;     http://www.gnu.org/licenses/gpl-3.0.txt
+;	
+; You should have received a copy of the GNU General Public License
+; along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
             cpu 6800
 
